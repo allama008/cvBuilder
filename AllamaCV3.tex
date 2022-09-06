@@ -1,0 +1,244 @@
+%-------------------------
+% Resume in Latex
+% Author : Allama Hossain
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% \newcommand{\resumeSubheading}[4]{
+%   \vspace{-2pt}\item
+%     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%       \textbf{#1} & #2 \\
+%       \textit{\small#3} & \textit{\small #4} \\
+%     \end{tabular*}\vspace{-7pt}
+% }
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+%  \newcommand{\resumeSubSubheading}[2]{
+%     \item
+%     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+%       \textit{\small#1} & \textit{\small #2} \\
+%     \end{tabular*}\vspace{-7pt}
+% }
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape MOHAMMED ALLAMA HOSSAIN} \\ \vspace{1pt}
+    \small +1 (469) 943 7966 $|$ \href{mailto:allama.hossain8@gmail.com}{{allama.hossain8@gmail.com}} $|$ 
+    \href{https://github.com/allama008}{{Github Profile}} $|$ 
+    \href{https://www.linkedin.com/in/allama008/}{{LinkedIn Profile}} $|$ 
+    \small Dallas, TX
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {The University of Texas at Dallas}{Richardson, TX}
+    {Masters in Computer Science;  GPA: 3.62}{August 2021 - May 2023}
+
+    {\scriptsize \textit{Courses: Design \& Analysis of Algorithms, Database Design, Object Oriented Analysis \& Design, Machine Learning, Artificial Intelligence.}}
+
+    \resumeSubheading
+      {Maulana Abul Kalam Azad University of Technology}{Kolkata, India}
+      {Bachelor of Technology in Computer Science;  GPA: 8.38/10.0}{August 2014 - May 2018}
+    
+      {\scriptsize \textit{Dr. Sudharshan Chakraborty Award for Best Student 2018}}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills and Courses}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Technologies}{: C, C++, Java, Python, R, SQL, PL/SQL, PostgreSQL, HTML, CSS, Javascript, Apex Class, VisualForce Page, Dart, Flutter, GIT Version Control, Unix Scripting, PowerShell.} \\
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Thanawalla Digital}{Dallas, TX}
+      {Software Developer Co-Op }{June 2022 - Present}
+      \resumeItemListStart
+        \resumeItem{Working with AT\&T Inc. to manipulate and integrate 150 million data-points to develop a Leads Distribution System for door to door support using Heroku Cloud services, PostgreSQL database, Mulesoft Anypoint and FastAPI servers along with Salesforce technologies (Apex classes and Visualforce pages). }
+        \resumeItem{Enforced key security features using OpenID Connect and OAuth2.0 Mutual TLS Client Authentication.}
+        \resumeItem{Assisted the CEO in discovery calls, proposed the accepted algorithm, delivered software handover, conducted dealer training at AT\&T HQ Dallas and identified crucial business requirements for subsequent go-live dates.}
+        \resumeItem{Boosted business goals by 200\% by building a shopping cart paradigm to automate the pipeline from lead aggregation to lead assignment. Enhanced the process by SFTP automation to streamline database insertion. }
+        \resumeItem{Developed robust APIs to download large volume leads (\textasciitilde2 million) and email notification systems to manage lead life cycle.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Tata Consultancy Services Ltd.}{Kolkata, India}
+      {Software Developer}{November 2018 - August 2021}
+      \resumeItemListStart
+        \resumeItem{Developed and improved the backend (Oracle 12, PL/SQL Developer) for the underwriting part of an insurance company serving over 70 million customers.}
+        \resumeItem{Designed and created 3 onsite database projects for the client for processing of over 2 million daily insurance records and integrated it with the government portal for live tracking of insurance status.}
+        \resumeItem{Implemented PowerShell and shell scripts using regex to detect and inform the client about anomalies in the source data files leading to database import error. The programs could also rectify minor issues in the data file. }
+        \resumeItem{Anomaly detection and rectification reduced 3 programmer day/mo efforts to track and analyze missing data issues and also improved customer reviews due to timely update of policies in the government portal.}
+        \resumeItem{Maintained a group of 4 databases having over 4 million daily transactions and automated existing applications using PowerShell to improve efficiency by 15\%, opening up 30 programmer hours/mo.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Nine Men Morris Game - UT Dallas} $|$ \emph{C++}}{June 2022 - August 2022}
+          \resumeItemListStart
+            \resumeItem{Implemented Nine Men Morris Game using the MiniMax algorithm in AI to find the optimal move for the player.}
+            \resumeItem{Enhanced the static function to predict better next moves and won 70\% of the matches in the class tournament.}
+            \resumeItem{Reduced positions evaluated by 98.79\% thereby minimizing game time through Alpha-Beta pruning of game tree.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Machine Learning Coursework - UT Dallas} $|$ \emph{Python, NumPy, pandas, sklearn}}{August 2021 - November 2021}
+          \resumeItemListStart
+            \resumeItem{Built Naïve Bayes and MCAP Logistic Regression model (L2 regularization) on Enron dataset with 92\% accuracy.}
+            \resumeItem{Executed Collaborative Filtering algorithm based on the paper of Breese et al. and achieved mean error of 0.98.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Study of Social Media Activity of Local Traffic Police Department} $|$ \emph{R, Shiny}}{August 2017 - March 2018}
+          \resumeItemListStart
+            \resumeItem{Formed a framework based on the social networking activity to provide practical insights to be leveraged by the police department and the common citizens.}
+            \resumeItem{The project report was accepted at the \emph{International Conference on Contemporary Advances in Innovative and Applicable Information Technology (ICCAIAIT), 2018. Springer, Singapore.}}
+          \resumeItemListEnd
+    %     \resumeProjectHeading
+    %       {\textbf{Movie Reviews Polarity Predictor - NIT, Trichy} $|$ \emph{Python}}{May 2018 -- June 2018}
+    %       \resumeItemListStart
+    %         \resumeItem{Implemented the TF-IDF vectorizer and logistic regression from scratch, and refined the data using regex.}
+    %         \resumeItem{Explored stratification while splitting the data and the effect of regularizing the cost function (L2 regularization). }
+    %         \resumeItem{Obtained an accuracy of 87.5\%- 'accuracy' was used as the confusion matrix confirmed no skew in the data.  }
+    %       \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+    
+%-----------COOLSTUFF-----------
+% \section{Additional Experience and Awards}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%     \textbf{CS Grader}{: Grader for the undergraduate level courses CS 1136 (Fall'21) and CS 1335 (Spring'22) at UTD.} \\
+%      \textbf{Jonsson School Graduate Scholar}{: Merit-based scholarship for graduate students at UTD (Fall'21 and Spring'22).} \\
+%      \textbf{Winner of the Citi Compliance Hackathon}{: 18 hours data challenge- placed 1st among 180 participants.} \\
+     
+%     }}
+%  \end{itemize}
+
+%
+
+
+
+
+\end{document}

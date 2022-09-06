@@ -1,0 +1,6 @@
+    -Implemented the Nine Men Morris Game using the MiniMax algorithm in AI to find the optimal move for the player.
+    -Optimized the static function to predict better next moves in the game. The program won over 70% of players in the class AI tournament.
+    -Reduced the positions evaluated thereby minimizing the game time through Alpha-Beta pruning of the game tree.
+
+    -Developed a framework based on the social networking activity to provide practical insights to be leveraged by the police department and the common citizens.
+    -The project report was accepted at the International Conference on Contemporary Advances in Innovative and Applicable Information Technology (ICCAIAIT), 2018. Springer, Singapore.
